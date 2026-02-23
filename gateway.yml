@@ -3,13 +3,11 @@ spring:
     name: gateway
   cloud:
     gateway:
-      server:
-        webmvc:
-          routes:
-            - id: auth
-              uri: lb://auth
-              predicates:
-                - Path=/auth/**
+      routes:
+        - id: auth
+          uri: lb://auth
+          predicates:
+            - Path=/auth/**
 server:
   port: 8000
 

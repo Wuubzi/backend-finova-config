@@ -4,10 +4,10 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: auth
-          uri: http://localhost:8010
-          predicates:
-            - Path=/auth/**
+      - id: auth
+        uri: http://localhost:8010
+        predicates:
+          - Path=/auth/**
 server:
   port: 8000
 

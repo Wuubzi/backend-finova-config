@@ -12,3 +12,7 @@ spring:
           auth: true
           starttls:
             enable: true
+logging:
+  level:
+    org.springframework.kafka: DEBUG
+    org.apache.kafka: DEBUG

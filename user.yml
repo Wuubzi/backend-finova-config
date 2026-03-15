@@ -1,6 +1,8 @@
 spring:
   application:
     name: user
+server:
+  port: 8020
 
   datasource:
     url: jdbc:postgresql://localhost:5436/${DB_NAME}

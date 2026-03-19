@@ -57,3 +57,7 @@ logging:
     software:
       amazon:
         awssdk: DEBUG
+
+virustotal:
+  api:
+    key: ${VIRUSTOTAL_API_KEY}

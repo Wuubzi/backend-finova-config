@@ -8,5 +8,8 @@ spring:
     password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
+jwt:
+  secret: ${JWT_SECRET}
+
 server:
   port: 8020
